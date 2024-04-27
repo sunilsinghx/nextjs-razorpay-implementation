@@ -1,0 +1,102 @@
+.cartCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0px;
+    border-bottom: 1px solid #3333333f;
+}
+
+.cartCard .s1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartCard .s1 img{
+    width: 65px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.cartCard .s1 h3{
+    font-size: 1.rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.cartCard .s1  h2{
+    font-size: 1.rem;
+    font-weight: 400;
+    color: #333;
+    border: 1px solid #3333333f;
+    padding: 3px 5px;
+}
+
+.incredecre{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 20px;
+}
+
+.incredecre button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.incredecre button:hover{
+    background-color: #3333333f;
+}
+
+.incredecre span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+
+.cartCard .s1 svg{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.cartCard .s1 svg:hover{
+    color: red;
+}
+
+.cartHead{
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+
+}
+
+.emptyCart{
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    margin: 20px 0px;
+    
+}
+.checkout
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin: 5px 10px;
+    background-color: aqua;
+    position: absolute;
+    font-weight: 600;
+    cursor: pointer;
+    bottom: 0;
+}
